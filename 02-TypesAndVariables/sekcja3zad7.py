@@ -7,9 +7,9 @@
 #
 total = 8000000000
 north = 7200000000
-south = ...
+south = total - north
 print("World population: ", total)
 print("Northern Hemisphere: ", north)
 print("Northern Hemisphere in %: ", north/total*100)
-...
-...
+print("Southhern Hemisphere: ", south)
+print("Southhern Hemisphere in %: ", south/total*100)
