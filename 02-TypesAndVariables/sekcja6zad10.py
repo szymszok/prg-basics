@@ -1,5 +1,5 @@
 # String manipulation
-#
+
 
 movie = "The Lord of the Rings: The Return of the King"
 
