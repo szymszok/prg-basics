@@ -2,5 +2,8 @@
 # Reads from file, line by line
 #
 with open('countries.txt', 'r') as file:
+    counter = 0
     for line in file:
-        print(line, end="")
+        counter +=1
+        print(f'{counter}.{line}', end='')
+        
